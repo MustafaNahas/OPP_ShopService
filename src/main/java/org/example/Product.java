@@ -1,4 +1,4 @@
 package org.example;
 
-public record Product() {
+public record Product(String id, String name, double price, int quantity) {
 }
